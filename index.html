@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arga Hutama</title>
+
+    <link rel="stylesheet" href="assets/styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="jumbotron">
+        <h1>Arga Hutama</h1>
+        <p>Android Developer and Enthusiast</p>
+      </div>
+
+      <nav>
+        <ul>
+          <li>
+            <a class="nav-link" href="#about" data-section="about">About</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#skills" data-section="skills">Skills</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#experiences" data-section="experiences"
+              >Experiences</a
+            >
+          </li>
+          <li>
+            <a class="nav-link" href="#projects" data-section="projects"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a class="nav-link" href="#certificates" data-section="certificates"
+              >Certificates</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="content">
+        <article class="card" id="about">
+          <h2>About Me</h2>
+          <p>
+            My name is Arga Hutama. I am a professional Android Engineer. I have
+            extensive knowledge of MVVM, MVI, clean architecture principles,
+            OOP, SOLID, etc. I am well versed with the technologies & tools like
+            Kotlin, Java, Coroutines, Retrofit, Apollo GraphQL, Dagger Hilt,
+            etc. I work on large-scale business application architecture.
+          </p>
+        </article>
+
+        <article class="card" id="skills">
+          <h2>Skills</h2>
+          <ul id="skills-list"></ul>
+        </article>
+
+        <article class="card" id="experiences">
+          <h2>Experiences</h2>
+          <div id="experience-items"></div>
+        </article>
+
+        <article class="card" id="projects">
+          <h2>Projects</h2>
+          <div id="project-items"></div>
+        </article>
+
+        <article class="card" id="certificates">
+          <h2>Certificates</h2>
+          <div id="certificate-items"></div>
+        </article>
+      </div>
+
+      <aside>
+        <article class="card profile">
+          <header>
+            <h2>Arga Hutama</h2>
+            <p>Android Developer</p>
+            <figure>
+              <img
+                class="rounded-image"
+                src="assets/images/profile-picture.jpeg"
+                alt="Profile Badge"
+              />
+            </figure>
+          </header>
+          <section>
+            <h3 id="contact-information">Contact Information</h3>
+            <ul>
+              <li>
+                Email:
+                <a href="mailto:argahut@gmail.com">argahut@gmail.com</a>
+              </li>
+              <li>
+                LinkedIn:
+                <a href="https://linkedin.com/in/argahut" target="_blank"
+                  >LinkedIn Profile</a
+                >
+              </li>
+              <li>
+                GitHub:
+                <a href="https://github.com/argahutama" target="_blank"
+                  >GitHub Profile</a
+                >
+              </li>
+            </ul>
+          </section>
+        </article>
+      </aside>
+    </main>
+
+    <footer>
+      <p>&copy;2023 Arga Hutama</p>
+    </footer>
+
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/section/skills.js"></script>
+    <script src="assets/js/section/experiences.js"></script>
+    <script src="assets/js/section/projects.js"></script>
+    <script src="assets/js/section/certificates.js"></script>
+  </body>
+</html>
