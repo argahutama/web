@@ -10,7 +10,7 @@ function generateEducationItems() {
       title: "SMK SMTI Yogyakarta",
       degree: "Vocational High School",
       field: "Chemical Engineering",
-      grade: null,
+      grade: "93 of 100",
     },
   ];
 
