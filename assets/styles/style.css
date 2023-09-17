@@ -164,6 +164,10 @@ aside ul li a {
   font-weight: bold;
 }
 
+.education-degree-field {
+  text-align: start;
+}
+
 #skills ul {
   list-style-type: disc;
   padding-left: 20px;
