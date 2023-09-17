@@ -67,6 +67,14 @@ footer {
   text-align: center;
 }
 
+footer p {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
 a {
   color: #b8860b;
 }
@@ -115,6 +123,10 @@ aside ul li a {
   color: white;
 }
 
+.jumbotron p {
+  text-align: center;
+}
+
 .profile header {
   text-align: center;
 }
@@ -138,6 +150,10 @@ aside ul li a {
   padding: 20px;
   background-color: #1e1e1e;
   color: #ffffff;
+}
+
+.profile p {
+  text-align: center;
 }
 
 .rounded-image {
@@ -168,7 +184,15 @@ aside ul li a {
 }
 
 @media screen and (max-width: 768px) {
+  nav {
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100%;
+  }
+
   nav ul {
+    margin-left: 13em;
+    margin-right: 13em;
     justify-content: center;
   }
 
