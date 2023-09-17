@@ -7,7 +7,7 @@ function scrollToActiveNavLink() {
 
     if (activeNavLi) {
       nav.scrollTo({
-        left: activeNavLi.offsetLeft - nav.offsetWidth / 2,
+        left: activeNavLi.offsetLeft - nav.offsetWidth / 2 + 58,
         behavior: "smooth",
       });
     }

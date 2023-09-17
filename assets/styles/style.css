@@ -29,13 +29,15 @@ nav {
 }
 
 nav ul {
-  padding-inline: 4rem;
   display: flex;
   gap: 2rem;
+  padding-left: 0px;
 }
 
 nav li {
   list-style-type: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 nav a {
@@ -189,15 +191,13 @@ aside ul li a {
 
 @media screen and (max-width: 768px) {
   nav {
-    overflow-x: auto;
+    overflow-x: hidden;
     white-space: nowrap;
     width: 100%;
   }
 
   nav ul {
-    margin-left: 13em;
-    margin-right: 13em;
-    justify-content: center;
+    justify-content: start;
   }
 
   main aside {
