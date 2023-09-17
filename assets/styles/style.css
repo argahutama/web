@@ -30,8 +30,9 @@ nav {
 
 nav ul {
   display: flex;
-  gap: 2rem;
+  gap: 1.5rem;
   padding-left: 0px;
+  justify-content: center;
 }
 
 nav li {
@@ -191,9 +192,14 @@ aside ul li a {
 
 @media screen and (max-width: 768px) {
   nav {
-    overflow-x: hidden;
+    overflow-x: scroll;
     white-space: nowrap;
     width: 100%;
+  }
+
+  nav::-webkit-scrollbar {
+    width: 0;
+    height: 0;
   }
 
   nav ul {
