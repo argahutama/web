@@ -197,6 +197,10 @@ aside ul li a {
     width: 100%;
   }
 
+  nav a:hover {
+    font-weight: normal;
+  }
+
   nav::-webkit-scrollbar {
     width: 0;
     height: 0;
