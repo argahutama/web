@@ -1,3 +1,19 @@
+function scrollToActiveNavLink() {
+  const activeLink = document.querySelector("a.nav-link.active");
+
+  if (activeLink) {
+    const activeNavLi = activeLink.parentElement;
+    const nav = document.querySelector("nav");
+
+    if (activeNavLi) {
+      nav.scrollTo({
+        left: activeNavLi.offsetLeft - nav.offsetWidth / 2,
+        behavior: "smooth",
+      });
+    }
+  }
+}
+
 function setActiveNavLink(targetId) {
   document.querySelectorAll("a.nav-link").forEach((link) => {
     link.classList.remove("active");
@@ -9,6 +25,7 @@ function setActiveNavLink(targetId) {
 
   if (activeLink) {
     activeLink.classList.add("active");
+    scrollToActiveNavLink();
   }
 }
 
@@ -23,8 +40,6 @@ document.querySelectorAll("a.nav-link").forEach((link) => {
       top: targetSection.offsetTop - 50,
       behavior: "smooth",
     });
-
-    setActiveNavLink(targetId);
   });
 });
 
